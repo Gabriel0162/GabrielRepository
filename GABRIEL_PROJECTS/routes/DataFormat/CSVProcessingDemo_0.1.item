@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_6AlLIMmCEfClDv2KOrT7rQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_6AlLIcmCEfClDv2KOrT7rQ" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_6AlLIsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlLI8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_6AlLJMmCEfClDv2KOrT7rQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_6AlLJcmCEfClDv2KOrT7rQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_6AlLJsmCEfClDv2KOrT7rQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLJ8mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLKMmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLKcmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLKsmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLK8mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLLMmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLLcmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLLsmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLL8mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLMMmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLMcmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLMsmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLM8mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLNMmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_6AlLNcmCEfClDv2KOrT7rQ" componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="160">
+    <elementParameter xmi:id="_6AlLNsmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_1" show="false"/>
+    <elementParameter xmi:id="_6AlLN8mCEfClDv2KOrT7rQ" field="TEXT" name="ID" value="&quot;csvParse&quot;"/>
+    <elementParameter xmi:id="_6AlLOMmCEfClDv2KOrT7rQ" field="RADIO" name="SIMPLE_CONFIG" value="false"/>
+    <elementParameter xmi:id="_6AlLOcmCEfClDv2KOrT7rQ" field="RADIO" name="CONFIG_BY_CODE" value="true"/>
+    <elementParameter xmi:id="_6AlLOsmCEfClDv2KOrT7rQ" field="TEXT" name="CLASS_QUALIFIED_NAME" value="java.lang.Object" show="false"/>
+    <elementParameter xmi:id="_6AlLO8mCEfClDv2KOrT7rQ" field="CHECK" name="SPECIFY_ARGUMENTS" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLPMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_6AlLPcmCEfClDv2KOrT7rQ" field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable"/>
+    <elementParameter xmi:id="_6AlLPsmCEfClDv2KOrT7rQ" field="MEMO_JAVA" name="CODE" value="&#xA;// Needed import statements must be added in Advanced settings&#xA;//&#xA;// beanInstance = ....;&#xA;CsvDataFormat csvFormat = new CsvDataFormat();&#xA;csvFormat.setCommentMarker('#');&#xA;csvFormat.setDelimiter(';');&#xA;csvFormat.setUseMaps(true);&#xA;csvFormat.setAllowMissingColumnNames(true);&#xA;beanInstance = csvFormat;"/>
+    <elementParameter xmi:id="_6AlLP8mCEfClDv2KOrT7rQ" field="MEMO_IMPORT" name="IMPORT" value="import org.apache.camel.dataformat.csv.CsvDataFormat;"/>
+    <elementParameter xmi:id="_6AlLQMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLQcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLQsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="custom CSV&#xD;&#xA;parse Formatter"/>
+  </node>
+  <node xmi:id="_6AlLQ8mCEfClDv2KOrT7rQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="280">
+    <elementParameter xmi:id="_6AlLRMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_6AlLRcmCEfClDv2KOrT7rQ" field="DIRECTORY" name="URI" value="&quot;/tmp/demo&quot;"/>
+    <elementParameter xmi:id="_6AlLRsmCEfClDv2KOrT7rQ" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_6AlLR8mCEfClDv2KOrT7rQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_6AlLSMmCEfClDv2KOrT7rQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_6AlLScmCEfClDv2KOrT7rQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_6AlLSsmCEfClDv2KOrT7rQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_6AlLS8mCEfClDv2KOrT7rQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_6AlLTMmCEfClDv2KOrT7rQ" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_6AlLTcmCEfClDv2KOrT7rQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_6AlLTsmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLT8mCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLUMmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="read CSV&#xD;&#xA;files"/>
+  </node>
+  <node xmi:id="_6AlLUcmCEfClDv2KOrT7rQ" componentName="cSetHeader" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="280">
+    <elementParameter xmi:id="_6AlLUsmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_1" show="false"/>
+    <elementParameter xmi:id="_6AlLU8mCEfClDv2KOrT7rQ" field="TABLE" name="VALUES"/>
+    <elementParameter xmi:id="_6AlLVMmCEfClDv2KOrT7rQ" field="TABLE" name="CLEAN_VALUES">
+      <elementValue xmi:id="_6AlLVcmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;*&quot;, &quot;CamelFileName&quot;"/>
+    </elementParameter>
+    <elementParameter xmi:id="_6AlLVsmCEfClDv2KOrT7rQ" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLV8mCEfClDv2KOrT7rQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_6AlLWMmCEfClDv2KOrT7rQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;                     *Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;                     *Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_6AlLWcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLWsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLW8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="cleanup&#xD;&#xA;headers"/>
+  </node>
+  <node xmi:id="_6AlLXMmCEfClDv2KOrT7rQ" componentName="cCsvParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="280">
+    <elementParameter xmi:id="_6AlLXcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cCsvParser_1" show="false"/>
+    <elementParameter xmi:id="_6AlLXsmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="CSV_FORMAT" value="CUSTOM"/>
+    <elementParameter xmi:id="_6AlLX8mCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="BEAN_REFERENCE" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLYMmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_DELIMITER" value="';'"/>
+    <elementParameter xmi:id="_6AlLYcmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_RECORD_SEPARATOR" value="System.lineSeparator()"/>
+    <elementParameter xmi:id="_6AlLYsmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_ESCAPE" value="'\\'"/>
+    <elementParameter xmi:id="_6AlLY8mCEfClDv2KOrT7rQ" field="TEXT" name="CSV_NULL_STRING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_6AlLZMmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_COMMENT_MARKER" value="'#'"/>
+    <elementParameter xmi:id="_6AlLZcmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="CSV_QUOTE_MODE" value="org.apache.commons.csv.QuoteMode.NONE"/>
+    <elementParameter xmi:id="_6AlLZsmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_QUOTE" value="'&quot;'" show="false"/>
+    <elementParameter xmi:id="_6AlLZ8mCEfClDv2KOrT7rQ" field="CHECK" name="CSV_TRIM" value="false"/>
+    <elementParameter xmi:id="_6AlLaMmCEfClDv2KOrT7rQ" field="CHECK" name="CSV_IGNORE_EMPTY" value="true"/>
+    <elementParameter xmi:id="_6AlLacmCEfClDv2KOrT7rQ" field="RADIO" name="CSV_NO_HEADER" value="true"/>
+    <elementParameter xmi:id="_6AlLasmCEfClDv2KOrT7rQ" field="RADIO" name="CSV_SKIP_HEADER" value="false"/>
+    <elementParameter xmi:id="_6AlLa8mCEfClDv2KOrT7rQ" field="RADIO" name="CSV_CAPTURE_HEADER" value="false"/>
+    <elementParameter xmi:id="_6AlLbMmCEfClDv2KOrT7rQ" field="RADIO" name="CSV_CUSTOM_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLbcmCEfClDv2KOrT7rQ" field="CHECK" name="CSV_USE_MAPS" value="false"/>
+    <elementParameter xmi:id="_6AlLbsmCEfClDv2KOrT7rQ" field="TABLE" name="CSV_HEADER" show="false"/>
+    <elementParameter xmi:id="_6AlLb8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLcMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLccmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="custom CSV&#xD;&#xA;parsing"/>
+  </node>
+  <node xmi:id="_6AlLcsmCEfClDv2KOrT7rQ" componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="160">
+    <elementParameter xmi:id="_6AlLc8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_6AlLdMmCEfClDv2KOrT7rQ" field="TEXT" name="ID" value="&quot;csvWrite&quot;"/>
+    <elementParameter xmi:id="_6AlLdcmCEfClDv2KOrT7rQ" field="RADIO" name="SIMPLE_CONFIG" value="false"/>
+    <elementParameter xmi:id="_6AlLdsmCEfClDv2KOrT7rQ" field="RADIO" name="CONFIG_BY_CODE" value="true"/>
+    <elementParameter xmi:id="_6AlLd8mCEfClDv2KOrT7rQ" field="TEXT" name="CLASS_QUALIFIED_NAME" value="java.lang.Object" show="false"/>
+    <elementParameter xmi:id="_6AlLeMmCEfClDv2KOrT7rQ" field="CHECK" name="SPECIFY_ARGUMENTS" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLecmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_6AlLesmCEfClDv2KOrT7rQ" field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable"/>
+    <elementParameter xmi:id="_6AlLe8mCEfClDv2KOrT7rQ" field="MEMO_JAVA" name="CODE" value="&#xA;// Needed import statements must be added in Advanced settings&#xA;//&#xA;// beanInstance = ....;&#xA;CsvDataFormat csvFormat = new CsvDataFormat();&#xA;csvFormat.setFormatName(&quot;EXCEL&quot;);&#xA;beanInstance = csvFormat;"/>
+    <elementParameter xmi:id="_6AlLfMmCEfClDv2KOrT7rQ" field="MEMO_IMPORT" name="IMPORT" value="import org.apache.camel.dataformat.csv.CsvDataFormat;"/>
+    <elementParameter xmi:id="_6AlLfcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLfsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLf8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="custom CSV&#xD;&#xA;write Formatter"/>
+  </node>
+  <node xmi:id="_6AlLgMmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="280">
+    <elementParameter xmi:id="_6AlLgcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_6AlLgsmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;CSVProcessingDemo.cLog_1&quot;"/>
+    <elementParameter xmi:id="_6AlLg8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_6AlLhMmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_6AlLhcmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_6AlLhsmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_6AlLh8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_6AlLiMmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_6AlLicmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_6AlLismCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_6AlLi8mCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_6AlLjMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_6AlLjcmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_6AlLjsmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+      <elementValue xmi:id="_6AlLj8mCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;showHeaders&quot;"/>
+      <elementValue xmi:id="_6AlLkMmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_6AlLkcmCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_6AlLksmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_6AlLk8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLlMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLlcmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="log parsed&#xD;&#xA;CSV content"/>
+  </node>
+  <node xmi:id="_6AlLlsmCEfClDv2KOrT7rQ" componentName="cCsvWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="720" posY="280">
+    <elementParameter xmi:id="_6AlLl8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cCsvWriter_1" show="false"/>
+    <elementParameter xmi:id="_6AlLmMmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="CSV_FORMAT" value="org.apache.commons.csv.CSVFormat.EXCEL"/>
+    <elementParameter xmi:id="_6AlLmcmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="BEAN_REFERENCE" value="" show="false"/>
+    <elementParameter xmi:id="_6AlLmsmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_DELIMITER" value="','" show="false"/>
+    <elementParameter xmi:id="_6AlLm8mCEfClDv2KOrT7rQ" field="TEXT" name="CSV_RECORD_SEPARATOR" value="System.lineSeparator()" show="false"/>
+    <elementParameter xmi:id="_6AlLnMmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_ESCAPE" value="'\\'" show="false"/>
+    <elementParameter xmi:id="_6AlLncmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_NULL_STRING" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_6AlLnsmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_COMMENT_MARKER" value="'#'" show="false"/>
+    <elementParameter xmi:id="_6AlLn8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="CSV_QUOTE_MODE" value="org.apache.commons.csv.QuoteMode.NONE" show="false"/>
+    <elementParameter xmi:id="_6AlLoMmCEfClDv2KOrT7rQ" field="TEXT" name="CSV_QUOTE" value="'&quot;'" show="false"/>
+    <elementParameter xmi:id="_6AlLocmCEfClDv2KOrT7rQ" field="CHECK" name="CSV_TRIM" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLosmCEfClDv2KOrT7rQ" field="CHECK" name="CSV_IGNORE_EMPTY" value="true" show="false"/>
+    <elementParameter xmi:id="_6AlLo8mCEfClDv2KOrT7rQ" field="RADIO" name="CSV_NO_HEADER" value="true" show="false"/>
+    <elementParameter xmi:id="_6AlLpMmCEfClDv2KOrT7rQ" field="RADIO" name="CSV_SKIP_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLpcmCEfClDv2KOrT7rQ" field="RADIO" name="CSV_CAPTURE_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLpsmCEfClDv2KOrT7rQ" field="RADIO" name="CSV_CUSTOM_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLp8mCEfClDv2KOrT7rQ" field="CHECK" name="CSV_USE_MAPS" value="false" show="false"/>
+    <elementParameter xmi:id="_6AlLqMmCEfClDv2KOrT7rQ" field="TABLE" name="CSV_HEADER" show="false"/>
+    <elementParameter xmi:id="_6AlLqcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLqsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLq8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="write in&#xD;&#xA;Excel Format"/>
+  </node>
+  <node xmi:id="_6AlLrMmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="280">
+    <elementParameter xmi:id="_6AlLrcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+    <elementParameter xmi:id="_6AlLrsmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;CSVProcessingDemo.cLog_2&quot;"/>
+    <elementParameter xmi:id="_6AlLr8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_6AlLsMmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_6AlLscmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_6AlLssmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_6AlLs8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_6AlLtMmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_6AlLtcmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_6AlLtsmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_6AlLt8mCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_6AlLuMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_6AlLucmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_6AlLusmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+      <elementValue xmi:id="_6AlLu8mCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;showHeaders&quot;"/>
+      <elementValue xmi:id="_6AlLvMmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_6AlLvcmCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_6AlLvsmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_6AlLv8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLwMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLwcmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="log generated&#xD;&#xA;CSV content"/>
+  </node>
+  <node xmi:id="_6AlLwsmCEfClDv2KOrT7rQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="280">
+    <elementParameter xmi:id="_6AlLw8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+    <elementParameter xmi:id="_6AlLxMmCEfClDv2KOrT7rQ" field="DIRECTORY" name="URI" value="&quot;/tmp/demo&quot;"/>
+    <elementParameter xmi:id="_6AlLxcmCEfClDv2KOrT7rQ" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_6AlLxsmCEfClDv2KOrT7rQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_6AlLx8mCEfClDv2KOrT7rQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_6AlLyMmCEfClDv2KOrT7rQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_6AlLycmCEfClDv2KOrT7rQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_6AlLysmCEfClDv2KOrT7rQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_6AlLy8mCEfClDv2KOrT7rQ" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_6AlLzMmCEfClDv2KOrT7rQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_6AlLzcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6AlLzsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_6AlLz8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="write new&#xD;&#xA;CSV file"/>
+  </node>
+  <connection xmi:id="_6AlL0MmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cFile_1" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cSetHeader_1">
+    <elementParameter xmi:id="_6AlL0cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <connection xmi:id="_6AlL0smCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cSetHeader_1" offsetLabelX="0" offsetLabelY="0" source="cSetHeader_1" target="cCsvParser_1">
+    <elementParameter xmi:id="_6AlL08mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_6AlL1MmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cCsvParser_1" offsetLabelX="0" offsetLabelY="0" source="cCsvParser_1" target="cLog_1">
+    <elementParameter xmi:id="_6AlL1cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  </connection>
+  <connection xmi:id="_6AlL1smCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route4" lineStyle="14" metaname="cLog_1" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cCsvWriter_1">
+    <elementParameter xmi:id="_6AlL18mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
+  </connection>
+  <connection xmi:id="_6AlL2MmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route7" lineStyle="14" metaname="cCsvWriter_1" offsetLabelX="0" offsetLabelY="0" source="cCsvWriter_1" target="cLog_2">
+    <elementParameter xmi:id="_6AlL2cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route7" show="false"/>
+  </connection>
+  <connection xmi:id="_6AlL2smCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route6" lineStyle="14" metaname="cLog_2" offsetLabelX="0" offsetLabelY="0" source="cLog_2" target="cFile_2">
+    <elementParameter xmi:id="_6AlL28mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route6" show="false"/>
+  </connection>
+  <note xmi:id="_6AlL3MmCEfClDv2KOrT7rQ" opaque="true" posX="200" posY="40" sizeHeight="80" sizeWidth="761" text="This example is parsing a CSV File of custom format and writes it into Excel CSV format file.&#xD;&#xA;Also you can use custom beans to set csv format properties."/>
+  <note xmi:id="_6AlL3cmCEfClDv2KOrT7rQ" opaque="true" posX="40" posY="360" sizeHeight="80" sizeWidth="441" text="To run it correctly, please set the Path parameter&#xD;&#xA;in Basic Settings for cFile_1 and cFile_2 components."/>
+  <subjob xmi:id="_6AlL3smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL38mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL4MmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL4cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL4smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL48mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL5MmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL5cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cCsvParser_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL5smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL58mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_2" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL6MmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL6cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL6smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL68mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cCsvWriter_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL7MmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL7cmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+  </subjob>
+  <subjob xmi:id="_6AlL7smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_6AlL78mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+  </subjob>
+</talendfile:ProcessType>

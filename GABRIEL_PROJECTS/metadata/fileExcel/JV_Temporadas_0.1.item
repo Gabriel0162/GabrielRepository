@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_AjXT0SVmEfGlNJ1Jdg6pJQ" name="JV_Temporadas" dataPackage="_AjXT0iVmEfGlNJ1Jdg6pJQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Gabriel Araya/Downloads/Talend/JValdez/Temporadas.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Temporadas" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Temporadas:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AjXT0iVmEfGlNJ1Jdg6pJQ" name="default" dataManager="_AjXT0SVmEfGlNJ1Jdg6pJQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AjXT0yVmEfGlNJ1Jdg6pJQ" id="_w5usgCVlEfGlNJ1Jdg6pJQ" comment="Metadata de Temporadas" label="Temporadas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AjXT1CVmEfGlNJ1Jdg6pJQ" label="Temporada" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AjXT1SVmEfGlNJ1Jdg6pJQ" label="Fec_Inicio" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AjXT1iVmEfGlNJ1Jdg6pJQ" label="Fec_Fin" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AjXT1yVmEfGlNJ1Jdg6pJQ" label="Producto" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

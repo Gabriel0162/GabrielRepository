@@ -1,0 +1,11 @@
+{
+  "itemId" : "_RhH4wL_JEfC9oKyy2kvi_w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_dNhQoL_YEfC9oKyy2kvi_w",
+    "parameterList" : [ {
+      "id" : "_dNzkgb_YEfC9oKyy2kvi_w",
+      "name" : "NUMERO_REGISTRO_GLOBAL"
+    } ]
+  } ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="__sRmAE2BEfGMRo5Q24UK7Q" name="customer_check" creationDate="2026-05-11T18:40:14.545-0400" defaultContext="Default">
+  <clientDependency href="../Analyses/TUTO74/customer_check_0.1.ana#__sSNEE2BEfGMRo5Q24UK7Q"/>
+  <taggedValue xmi:id="__sRmAU2BEfGMRo5Q24UK7Q" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="__sRmAk2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="__sRmA02BEfGMRo5Q24UK7Q" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="__sRmBE2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="__sRmBU2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="__sRmBk2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="__sRmB02BEfGMRo5Q24UK7Q" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="__sRmCE2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="__sRmCU2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_USER" value=""/>
+  <taggedValue xmi:id="__sRmCk2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:NXrxrVRB5zrZ7AAMq4L/GWwMA3CWeF0vZKloJg=="/>
+  <taggedValue xmi:id="__sRmC02BEfGMRo5Q24UK7Q" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="__sRmDE2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="__sRmDU2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="__sRmDk2BEfGMRo5Q24UK7Q" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQL8Dialect"/>
+  <taggedValue xmi:id="__sRmD02BEfGMRo5Q24UK7Q" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="__sRmEE2BEfGMRo5Q24UK7Q" tag="Author" value="gabrielaraya@adatacompanysasnfr"/>
+  <taggedValue xmi:id="__uksEE2BEfGMRo5Q24UK7Q" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="__uksEU2BEfGMRo5Q24UK7Q" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_CtmpAE2CEfGMRo5Q24UK7Q" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_CtmpAU2CEfGMRo5Q24UK7Q" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_WG_Q0E2IEfGMRo5Q24UK7Q" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_WG_Q0U2IEfGMRo5Q24UK7Q" tag="Description" value=""/>
+  <taggedValue xmi:id="_WG_Q0k2IEfGMRo5Q24UK7Q" tag="Status" value="development"/>
+  <taggedValue xmi:id="_WG_34U2IEfGMRo5Q24UK7Q" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_WG_34k2IEfGMRo5Q24UK7Q" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_WG_3402IEfGMRo5Q24UK7Q" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="__sRmEU2BEfGMRo5Q24UK7Q" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/TUTO74/customer_check_0.1.ana#_vxgRkH-iEeCzhsdGIBJ1BQ"/>
+  </analysisMap>
+  <context xmi:id="_WG_34E2IEfGMRo5Q24UK7Q" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

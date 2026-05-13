@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_66VswM6oEfCaFs5oP9XmlA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_66WT0M6oEfCaFs5oP9XmlA" comment="" name="S_MySQl_QWT_Server" prompt="S_MySQl_QWT_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_66WT0c6oEfCaFs5oP9XmlA" comment="" name="S_MySQl_QWT_Password" prompt="S_MySQl_QWT_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fvYsRwoDFIMKVyuLc+KPra/J14BkLNyl4UPZgiE71tMINsh2fPU="/>
+  <contextParameter xmi:id="_66WT0s6oEfCaFs5oP9XmlA" comment="" name="S_MySQl_QWT_Port" prompt="S_MySQl_QWT_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_66WT086oEfCaFs5oP9XmlA" comment="" name="S_MySQl_QWT_Login" prompt="S_MySQl_QWT_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AData"/>
+  <contextParameter xmi:id="_66WT1M6oEfCaFs5oP9XmlA" comment="" name="S_MySQl_QWT_AdditionalParams" prompt="S_MySQl_QWT_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+  <contextParameter xmi:id="_66WT1c6oEfCaFs5oP9XmlA" comment="" name="S_MySQl_QWT_Database" prompt="S_MySQl_QWT_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qwt"/>
+</talendfile:ContextType>

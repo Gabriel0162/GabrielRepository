@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_5_eX4MmCEfClDv2KOrT7rQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_5_eX4cmCEfClDv2KOrT7rQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_5_eX4smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eX48mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_5_eX5MmCEfClDv2KOrT7rQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eX5cmCEfClDv2KOrT7rQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eX5smCEfClDv2KOrT7rQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX58mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX6MmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX6cmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX6smCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX68mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX7MmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX7cmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX7smCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX78mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX8MmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX8cmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX8smCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX88mCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_5_eX9MmCEfClDv2KOrT7rQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_5_eX9cmCEfClDv2KOrT7rQ" id="_EGgFtn3rEemhWdhrSLlBvA" name="DataOperation"/>
+    <routinesParameter xmi:id="_5_eX9smCEfClDv2KOrT7rQ" id="_EJtxxn3rEemhWdhrSLlBvA" name="Mathematical"/>
+    <routinesParameter xmi:id="_5_eX98mCEfClDv2KOrT7rQ" id="_EJtx0H3rEemhWdhrSLlBvA" name="Numeric"/>
+    <routinesParameter xmi:id="_5_eX-MmCEfClDv2KOrT7rQ" id="_EJ27sH3rEemhWdhrSLlBvA" name="Relational"/>
+    <routinesParameter xmi:id="_5_eX-cmCEfClDv2KOrT7rQ" id="_EKmikH3rEemhWdhrSLlBvA" name="SQLike"/>
+    <routinesParameter xmi:id="_5_eX-smCEfClDv2KOrT7rQ" id="_EJ27un3rEemhWdhrSLlBvA" name="StringHandling"/>
+    <routinesParameter xmi:id="_5_eX-8mCEfClDv2KOrT7rQ" id="_EJ27xH3rEemhWdhrSLlBvA" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_5_eX_MmCEfClDv2KOrT7rQ" id="_EKAsuX3rEemhWdhrSLlBvA" name="TalendDate"/>
+    <routinesParameter xmi:id="_5_eX_cmCEfClDv2KOrT7rQ" id="_EKJ2oH3rEemhWdhrSLlBvA" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_5_eX_smCEfClDv2KOrT7rQ" id="_EKAsw33rEemhWdhrSLlBvA" name="TalendString"/>
+  </parameters>
+  <node xmi:id="_5_eX_8mCEfClDv2KOrT7rQ" componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="352">
+    <elementParameter xmi:id="_5_eYAMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cSetBody_2" show="false"/>
+    <elementParameter xmi:id="_5_eYAcmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LANGUAGES" value="constant"/>
+    <elementParameter xmi:id="_5_eYAsmCEfClDv2KOrT7rQ" field="TEXT" name="EXPRESSION" value="new beans.Person(&quot;Arnold&quot;, &quot;Schwarzenegger&quot;, &quot;Artist&quot;, 74, null)"/>
+    <elementParameter xmi:id="_5_eYA8mCEfClDv2KOrT7rQ" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYBMmCEfClDv2KOrT7rQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_5_eYBcmCEfClDv2KOrT7rQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;                 *Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;                 *Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_5_eYBsmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYB8mCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYCMmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Set demo Object"/>
+  </node>
+  <node xmi:id="_5_eYCcmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="128">
+    <elementParameter xmi:id="_5_eYCsmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_4" show="false"/>
+    <elementParameter xmi:id="_5_eYC8mCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_4&quot;"/>
+    <elementParameter xmi:id="_5_eYDMmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eYDcmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eYDsmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eYD8mCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYEMmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eYEcmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYEsmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eYE8mCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eYFMmCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eYFcmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eYFsmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eYF8mCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eYGMmCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eYGcmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eYGsmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYG8mCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYHMmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log JSON"/>
+  </node>
+  <node xmi:id="_5_eYHcmCEfClDv2KOrT7rQ" componentName="cJsonWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="128">
+    <elementParameter xmi:id="_5_eYHsmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_1" show="false"/>
+    <elementParameter xmi:id="_5_eYH8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Gson"/>
+    <elementParameter xmi:id="_5_eYIMmCEfClDv2KOrT7rQ" field="CHECK" name="PRETTY_PRINT" value="true"/>
+    <elementParameter xmi:id="_5_eYIcmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_5_eYIsmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYI8mCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYJMmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Object -> JSON"/>
+  </node>
+  <node xmi:id="_5_eYJcmCEfClDv2KOrT7rQ" componentName="cMulticast" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="352">
+    <elementParameter xmi:id="_5_eYJsmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cMulticast_1" show="false"/>
+    <elementParameter xmi:id="_5_eYJ8mCEfClDv2KOrT7rQ" field="TABLE" name="URIS">
+      <elementValue xmi:id="_5_eYKMmCEfClDv2KOrT7rQ" elementRef="URI" value="&quot;direct:json&quot;"/>
+      <elementValue xmi:id="_5_eYKcmCEfClDv2KOrT7rQ" elementRef="URI" value="&quot;direct:xml&quot;"/>
+      <elementValue xmi:id="_5_eYKsmCEfClDv2KOrT7rQ" elementRef="URI" value="&quot;direct:json2xml&quot;"/>
+      <elementValue xmi:id="_5_eYK8mCEfClDv2KOrT7rQ" elementRef="URI" value="&quot;direct:xml2json&quot;"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eYLMmCEfClDv2KOrT7rQ" field="CHECK" name="USE_AGGREGATION_STRATEGY" value="false"/>
+    <elementParameter xmi:id="_5_eYLcmCEfClDv2KOrT7rQ" field="TEXT" name="AGGREGATION_STRATEGY" value="AggregationStrategy" show="false"/>
+    <elementParameter xmi:id="_5_eYLsmCEfClDv2KOrT7rQ" field="CHECK" name="PARALLEL_PROCESSING" value="false"/>
+    <elementParameter xmi:id="_5_eYL8mCEfClDv2KOrT7rQ" field="CHECK" name="USE_TIMEOUT" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYMMmCEfClDv2KOrT7rQ" field="TEXT" name="TIMEOUT" value="1000" show="false"/>
+    <elementParameter xmi:id="_5_eYMcmCEfClDv2KOrT7rQ" field="CHECK" name="STOP_ON_EXCEPTION" value="false"/>
+    <elementParameter xmi:id="_5_eYM8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYNMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYNcmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Send to all"/>
+  </node>
+  <node xmi:id="_5_eYNsmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="352">
+    <elementParameter xmi:id="_5_eYN8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_5_eYOMmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_1&quot;"/>
+    <elementParameter xmi:id="_5_eYOcmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eYOsmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eYO8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eYPMmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYPcmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eYPsmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYP8mCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eYQMmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eYQcmCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eYQsmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eYQ8mCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eYRMmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eYRcmCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eYRsmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eYR8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYSMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYScmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log Object"/>
+  </node>
+  <node xmi:id="_5_eYSsmCEfClDv2KOrT7rQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="128">
+    <elementParameter xmi:id="_5_eYS8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_5_eYTMmCEfClDv2KOrT7rQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYTcmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_5_eYTsmCEfClDv2KOrT7rQ" field="TEXT" name="NAME" value="&quot;json&quot;"/>
+    <elementParameter xmi:id="_5_eYT8mCEfClDv2KOrT7rQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eYUMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYUcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYUsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="JSON"/>
+  </node>
+  <node xmi:id="_5_eYU8mCEfClDv2KOrT7rQ" componentName="cJsonParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="128">
+    <elementParameter xmi:id="_5_eYVMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_1" show="false"/>
+    <elementParameter xmi:id="_5_eYVcmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="JSON_LIBRARY" value="custom"/>
+    <elementParameter xmi:id="_5_eYVsmCEfClDv2KOrT7rQ" field="TEXT" name="UNMARSHAL_TYPE" value="beans.Person.class" show="false"/>
+    <elementParameter xmi:id="_5_eYV8mCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_2"/>
+    <elementParameter xmi:id="_5_eYWMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYWcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYWsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="JSON -> Object"/>
+  </node>
+  <node xmi:id="_5_eYW8mCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="128">
+    <elementParameter xmi:id="_5_eYXMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+    <elementParameter xmi:id="_5_eYXcmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_2&quot;"/>
+    <elementParameter xmi:id="_5_eYXsmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eYX8mCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eYYMmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eYYcmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYYsmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eYY8mCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYZMmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eYZcmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eYZsmCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eYZ8mCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eYaMmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eYacmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eYasmCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eYa8mCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eYbMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYbcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYbsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log Object"/>
+  </node>
+  <node xmi:id="_5_eYb8mCEfClDv2KOrT7rQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
+    <elementParameter xmi:id="_5_eYcMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_5_eYccmCEfClDv2KOrT7rQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYcsmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_5_eYc8mCEfClDv2KOrT7rQ" field="TEXT" name="NAME" value="&quot;xml&quot;"/>
+    <elementParameter xmi:id="_5_eYdMmCEfClDv2KOrT7rQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eYdcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYdsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYd8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="XML"/>
+  </node>
+  <node xmi:id="_5_eYeMmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="256">
+    <elementParameter xmi:id="_5_eYecmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_3" show="false"/>
+    <elementParameter xmi:id="_5_eYesmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_3&quot;"/>
+    <elementParameter xmi:id="_5_eYe8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eYfMmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eYfcmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eYfsmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYf8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eYgMmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYgcmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eYgsmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eYg8mCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eYhMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eYhcmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eYhsmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eYh8mCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eYiMmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eYicmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYismCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYi8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log XML"/>
+  </node>
+  <node xmi:id="_5_eYjMmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="256">
+    <elementParameter xmi:id="_5_eYjcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_5" show="false"/>
+    <elementParameter xmi:id="_5_eYjsmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_5&quot;"/>
+    <elementParameter xmi:id="_5_eYj8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eYkMmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eYkcmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eYksmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYk8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eYlMmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eYlcmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eYlsmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eYl8mCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eYmMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eYmcmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eYmsmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eYm8mCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eYnMmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eYncmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYnsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYn8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log Object"/>
+  </node>
+  <node xmi:id="_5_eYoMmCEfClDv2KOrT7rQ" componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="256">
+    <elementParameter xmi:id="_5_eYocmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_1" show="false"/>
+    <elementParameter xmi:id="_5_eYosmCEfClDv2KOrT7rQ" field="TEXT" name="ID" value="&quot;jacksonXMLDataFormat&quot;"/>
+    <elementParameter xmi:id="_5_eYo8mCEfClDv2KOrT7rQ" field="RADIO" name="SIMPLE_CONFIG" value="false"/>
+    <elementParameter xmi:id="_5_eYpMmCEfClDv2KOrT7rQ" field="RADIO" name="CONFIG_BY_CODE" value="true"/>
+    <elementParameter xmi:id="_5_eYpcmCEfClDv2KOrT7rQ" field="TEXT" name="CLASS_QUALIFIED_NAME" value="java.lang.Object" show="false"/>
+    <elementParameter xmi:id="_5_eYpsmCEfClDv2KOrT7rQ" field="CHECK" name="SPECIFY_ARGUMENTS" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYp8mCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eYqMmCEfClDv2KOrT7rQ" field="MEMO_IMPORT" name="IMPORT" value="import org.apache.camel.component.jacksonxml.JacksonXMLDataFormat;&#xA;import com.fasterxml.jackson.dataformat.xml.XmlMapper;"/>
+    <elementParameter xmi:id="_5_eYqcmCEfClDv2KOrT7rQ" field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable"/>
+    <elementParameter xmi:id="_5_eYqsmCEfClDv2KOrT7rQ" field="MEMO_JAVA" name="CODE" value="&#xA;JacksonXMLDataFormat jacksonXMLDataFormat = new JacksonXMLDataFormat();&#xA;jacksonXMLDataFormat.setPrettyPrint(true);&#xA;jacksonXMLDataFormat.setInclude(&quot;NON_NULL&quot;);&#xA;&#xA;beanInstance = jacksonXMLDataFormat;"/>
+    <elementParameter xmi:id="_5_eYq8mCEfClDv2KOrT7rQ" field="TEXT" name="LABEL" value="Jackson XML"/>
+    <elementParameter xmi:id="_5_eYrMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYrcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_5_eYrsmCEfClDv2KOrT7rQ" componentName="cXmlWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="256">
+    <elementParameter xmi:id="_5_eYr8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlWriter_1" show="false"/>
+    <elementParameter xmi:id="_5_eYsMmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="XML_LIBRARY" value="custom"/>
+    <elementParameter xmi:id="_5_eYscmCEfClDv2KOrT7rQ" field="CHECK" name="PRETTY_PRINT" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYssmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_1"/>
+    <elementParameter xmi:id="_5_eYs8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYtMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYtcmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Object -> XML"/>
+  </node>
+  <node xmi:id="_5_eYtsmCEfClDv2KOrT7rQ" componentName="cXmlParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="256">
+    <elementParameter xmi:id="_5_eYt8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_1" show="false"/>
+    <elementParameter xmi:id="_5_eYuMmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="XML_LIBRARY" value="custom"/>
+    <elementParameter xmi:id="_5_eYucmCEfClDv2KOrT7rQ" field="TEXT" name="UNMARSHAL_TYPE" value="beans.Person.class" show="false"/>
+    <elementParameter xmi:id="_5_eYusmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value=""/>
+    <elementParameter xmi:id="_5_eYu8mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYvMmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eYvcmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="XML -> Object"/>
+  </node>
+  <node xmi:id="_5_eYvsmCEfClDv2KOrT7rQ" componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="256">
+    <elementParameter xmi:id="_5_eYv8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_5_eYwMmCEfClDv2KOrT7rQ" field="TEXT" name="ID" value="&quot;jacksonJSONDataFormat&quot;"/>
+    <elementParameter xmi:id="_5_eYwcmCEfClDv2KOrT7rQ" field="RADIO" name="SIMPLE_CONFIG" value="false"/>
+    <elementParameter xmi:id="_5_eYwsmCEfClDv2KOrT7rQ" field="RADIO" name="CONFIG_BY_CODE" value="true"/>
+    <elementParameter xmi:id="_5_eYw8mCEfClDv2KOrT7rQ" field="TEXT" name="CLASS_QUALIFIED_NAME" value="java.lang.Object" show="false"/>
+    <elementParameter xmi:id="_5_eYxMmCEfClDv2KOrT7rQ" field="CHECK" name="SPECIFY_ARGUMENTS" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eYxcmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eYxsmCEfClDv2KOrT7rQ" field="MEMO_IMPORT" name="IMPORT" value="import org.apache.camel.component.gson.GsonDataFormat;"/>
+    <elementParameter xmi:id="_5_eYx8mCEfClDv2KOrT7rQ" field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable"/>
+    <elementParameter xmi:id="_5_eYyMmCEfClDv2KOrT7rQ" field="MEMO_JAVA" name="CODE" value="&#xA;GsonDataFormat jsonDataFormat = new GsonDataFormat();&#xA;jsonDataFormat.setPrettyPrint(true);&#xA;jsonDataFormat.setUnmarshalType(beans.Person.class);&#xA;jsonDataFormat.setSerializeNulls(false);&#xA;beanInstance = jsonDataFormat;"/>
+    <elementParameter xmi:id="_5_eYycmCEfClDv2KOrT7rQ" field="TEXT" name="LABEL" value="Gson JSON"/>
+    <elementParameter xmi:id="_5_eYysmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eYy8mCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_5_eYzMmCEfClDv2KOrT7rQ" componentName="cJsonValidator" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="992" posY="128">
+    <elementParameter xmi:id="_5_eYzcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonValidator_1" show="false"/>
+    <elementParameter xmi:id="_5_eYzsmCEfClDv2KOrT7rQ" field="TEXT" name="RESOURCE_URI" value="&quot;json-schema/people_schema.json&quot;"/>
+    <elementParameter xmi:id="_5_eYz8mCEfClDv2KOrT7rQ" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_5_eY0MmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eY0cmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eY0smCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="validate JSON"/>
+  </node>
+  <node xmi:id="_5_eY08mCEfClDv2KOrT7rQ" componentName="cXmlValidator" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="992" posY="256">
+    <elementParameter xmi:id="_5_eY1MmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlValidator_1" show="false"/>
+    <elementParameter xmi:id="_5_eY1cmCEfClDv2KOrT7rQ" field="TEXT" name="RESOURCE_URI" value="&quot;xml-schema/people_schema.xml&quot;"/>
+    <elementParameter xmi:id="_5_eY1smCEfClDv2KOrT7rQ" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_5_eY18mCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eY2MmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eY2cmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="validate XML"/>
+  </node>
+  <node xmi:id="_5_eY2smCEfClDv2KOrT7rQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="384">
+    <elementParameter xmi:id="_5_eY28mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
+    <elementParameter xmi:id="_5_eY3MmCEfClDv2KOrT7rQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eY3cmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_5_eY3smCEfClDv2KOrT7rQ" field="TEXT" name="NAME" value="&quot;json2xml&quot;"/>
+    <elementParameter xmi:id="_5_eY38mCEfClDv2KOrT7rQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eY4MmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eY4cmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eY4smCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="json2xml"/>
+  </node>
+  <node xmi:id="_5_eY48mCEfClDv2KOrT7rQ" componentName="cJsonWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="384">
+    <elementParameter xmi:id="_5_eY5MmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_2" show="false"/>
+    <elementParameter xmi:id="_5_eY5cmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Gson"/>
+    <elementParameter xmi:id="_5_eY5smCEfClDv2KOrT7rQ" field="CHECK" name="PRETTY_PRINT" value="true"/>
+    <elementParameter xmi:id="_5_eY58mCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_5_eY6MmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eY6cmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eY6smCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Object -> JSON"/>
+  </node>
+  <node xmi:id="_5_eY68mCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="384">
+    <elementParameter xmi:id="_5_eY7MmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_6" show="false"/>
+    <elementParameter xmi:id="_5_eY7cmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_6&quot;"/>
+    <elementParameter xmi:id="_5_eY7smCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eY78mCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eY8MmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eY8cmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eY8smCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eY88mCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eY9MmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eY9cmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eY9smCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eY98mCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eY-MmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eY-cmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eY-smCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eY-8mCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eY_MmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eY_cmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eY_smCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log JSON"/>
+  </node>
+  <node xmi:id="_5_eY_8mCEfClDv2KOrT7rQ" componentName="cJsonParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="992" posY="384">
+    <elementParameter xmi:id="_5_eZAMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_2" show="false"/>
+    <elementParameter xmi:id="_5_eZAcmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Gson"/>
+    <elementParameter xmi:id="_5_eZAsmCEfClDv2KOrT7rQ" field="TEXT" name="UNMARSHAL_TYPE" value="java.util.Map.class"/>
+    <elementParameter xmi:id="_5_eZA8mCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_5_eZBMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZBcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZBsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="JSON -> Map"/>
+  </node>
+  <node xmi:id="_5_eZB8mCEfClDv2KOrT7rQ" componentName="cXmlWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="384">
+    <elementParameter xmi:id="_5_eZCMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlWriter_2" show="false"/>
+    <elementParameter xmi:id="_5_eZCcmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="XML_LIBRARY" value="jacksonxml"/>
+    <elementParameter xmi:id="_5_eZCsmCEfClDv2KOrT7rQ" field="CHECK" name="PRETTY_PRINT" value="false"/>
+    <elementParameter xmi:id="_5_eZC8mCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_1" show="false"/>
+    <elementParameter xmi:id="_5_eZDMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZDcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZDsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Map -> XML"/>
+  </node>
+  <node xmi:id="_5_eZD8mCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="384">
+    <elementParameter xmi:id="_5_eZEMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_7" show="false"/>
+    <elementParameter xmi:id="_5_eZEcmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_7&quot;"/>
+    <elementParameter xmi:id="_5_eZEsmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eZE8mCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eZFMmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eZFcmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eZFsmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eZF8mCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eZGMmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eZGcmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eZGsmCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eZG8mCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eZHMmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eZHcmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eZHsmCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eZH8mCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eZIMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZIcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZIsmCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log XML"/>
+  </node>
+  <node xmi:id="_5_eZI8mCEfClDv2KOrT7rQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="512">
+    <elementParameter xmi:id="_5_eZJMmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_4" show="false"/>
+    <elementParameter xmi:id="_5_eZJcmCEfClDv2KOrT7rQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eZJsmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_5_eZJ8mCEfClDv2KOrT7rQ" field="TEXT" name="NAME" value="&quot;xml2json&quot;"/>
+    <elementParameter xmi:id="_5_eZKMmCEfClDv2KOrT7rQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eZKcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZKsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZK8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="xml2json"/>
+  </node>
+  <node xmi:id="_5_eZLMmCEfClDv2KOrT7rQ" componentName="cXmlWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="512">
+    <elementParameter xmi:id="_5_eZLcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlWriter_3" show="false"/>
+    <elementParameter xmi:id="_5_eZLsmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="XML_LIBRARY" value="jacksonxml"/>
+    <elementParameter xmi:id="_5_eZL8mCEfClDv2KOrT7rQ" field="CHECK" name="PRETTY_PRINT" value="false"/>
+    <elementParameter xmi:id="_5_eZMMmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_1" show="false"/>
+    <elementParameter xmi:id="_5_eZMcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZMsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZM8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Object -> XML"/>
+  </node>
+  <node xmi:id="_5_eZNMmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="512">
+    <elementParameter xmi:id="_5_eZNcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_8" show="false"/>
+    <elementParameter xmi:id="_5_eZNsmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_8&quot;"/>
+    <elementParameter xmi:id="_5_eZN8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eZOMmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eZOcmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eZOsmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eZO8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eZPMmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eZPcmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eZPsmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eZP8mCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eZQMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eZQcmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eZQsmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eZQ8mCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eZRMmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eZRcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZRsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZR8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log XML"/>
+  </node>
+  <node xmi:id="_5_eZSMmCEfClDv2KOrT7rQ" componentName="cXmlParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="992" posY="512">
+    <elementParameter xmi:id="_5_eZScmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_2" show="false"/>
+    <elementParameter xmi:id="_5_eZSsmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="XML_LIBRARY" value="jacksonxml"/>
+    <elementParameter xmi:id="_5_eZS8mCEfClDv2KOrT7rQ" field="TEXT" name="UNMARSHAL_TYPE" value="java.util.Map.class"/>
+    <elementParameter xmi:id="_5_eZTMmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
+    <elementParameter xmi:id="_5_eZTcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZTsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZT8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="XML -> Map"/>
+  </node>
+  <node xmi:id="_5_eZUMmCEfClDv2KOrT7rQ" componentName="cJsonWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="512">
+    <elementParameter xmi:id="_5_eZUcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_3" show="false"/>
+    <elementParameter xmi:id="_5_eZUsmCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Gson"/>
+    <elementParameter xmi:id="_5_eZU8mCEfClDv2KOrT7rQ" field="CHECK" name="PRETTY_PRINT" value="true"/>
+    <elementParameter xmi:id="_5_eZVMmCEfClDv2KOrT7rQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_5_eZVcmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZVsmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZV8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Map -> JSON"/>
+  </node>
+  <node xmi:id="_5_eZWMmCEfClDv2KOrT7rQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="512">
+    <elementParameter xmi:id="_5_eZWcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_9" show="false"/>
+    <elementParameter xmi:id="_5_eZWsmCEfClDv2KOrT7rQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;AdvancedJSONXMLDemo.cLog_9&quot;"/>
+    <elementParameter xmi:id="_5_eZW8mCEfClDv2KOrT7rQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_5_eZXMmCEfClDv2KOrT7rQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_5_eZXcmCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_5_eZXsmCEfClDv2KOrT7rQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eZX8mCEfClDv2KOrT7rQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_5_eZYMmCEfClDv2KOrT7rQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_5_eZYcmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_5_eZYsmCEfClDv2KOrT7rQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_5_eZY8mCEfClDv2KOrT7rQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_5_eZZMmCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_5_eZZcmCEfClDv2KOrT7rQ" elementRef="NAME" value="&quot;multiline&quot;"/>
+      <elementValue xmi:id="_5_eZZsmCEfClDv2KOrT7rQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_5_eZZ8mCEfClDv2KOrT7rQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_5_eZaMmCEfClDv2KOrT7rQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eZacmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZasmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_5_eZa8mCEfClDv2KOrT7rQ" field="MEMO" name="COMMENT" value="Log JSON"/>
+  </node>
+  <node xmi:id="_5_eZbMmCEfClDv2KOrT7rQ" componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="256">
+    <elementParameter xmi:id="_5_eZbcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_3" show="false"/>
+    <elementParameter xmi:id="_5_eZbsmCEfClDv2KOrT7rQ" field="TEXT" name="ID" value="&quot;avroDataFormat&quot;"/>
+    <elementParameter xmi:id="_5_eZb8mCEfClDv2KOrT7rQ" field="RADIO" name="SIMPLE_CONFIG" value="false"/>
+    <elementParameter xmi:id="_5_eZcMmCEfClDv2KOrT7rQ" field="RADIO" name="CONFIG_BY_CODE" value="true"/>
+    <elementParameter xmi:id="_5_eZccmCEfClDv2KOrT7rQ" field="TEXT" name="CLASS_QUALIFIED_NAME" value="java.lang.Object" show="false"/>
+    <elementParameter xmi:id="_5_eZcsmCEfClDv2KOrT7rQ" field="CHECK" name="SPECIFY_ARGUMENTS" value="false" show="false"/>
+    <elementParameter xmi:id="_5_eZc8mCEfClDv2KOrT7rQ" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_5_eZdMmCEfClDv2KOrT7rQ" field="MEMO_IMPORT" name="IMPORT" value="import org.apache.camel.model.dataformat.AvroDataFormat;"/>
+    <elementParameter xmi:id="_5_eZdcmCEfClDv2KOrT7rQ" field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable"/>
+    <elementParameter xmi:id="_5_eZdsmCEfClDv2KOrT7rQ" field="MEMO_JAVA" name="CODE" value="&#xA;AvroDataFormat avroDataFormat = new AvroDataFormat();&#xA;beanInstance = avroDataFormat;"/>
+    <elementParameter xmi:id="_5_eZd8mCEfClDv2KOrT7rQ" field="TEXT" name="LABEL" value="Avro"/>
+    <elementParameter xmi:id="_5_eZeMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZecmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_5_eZesmCEfClDv2KOrT7rQ" componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="352">
+    <elementParameter xmi:id="_5_eZe8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+    <elementParameter xmi:id="_5_eZfMmCEfClDv2KOrT7rQ" field="TEXT" name="PERIOD" value="1000"/>
+    <elementParameter xmi:id="_5_eZfcmCEfClDv2KOrT7rQ" field="TEXT" name="REPEATCOUNT" value="1"/>
+    <elementParameter xmi:id="_5_eZfsmCEfClDv2KOrT7rQ" field="TEXT" name="DELAY" value="1000"/>
+    <elementParameter xmi:id="_5_eZf8mCEfClDv2KOrT7rQ" field="CHECK" name="FIXEDRATE" value="false"/>
+    <elementParameter xmi:id="_5_eZgMmCEfClDv2KOrT7rQ" field="CHECK" name="DAEMON" value="true"/>
+    <elementParameter xmi:id="_5_eZgcmCEfClDv2KOrT7rQ" field="CHECK" name="SET_TIME" value="false"/>
+    <elementParameter xmi:id="_5_eZgsmCEfClDv2KOrT7rQ" field="TEXT" name="TIME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_5_eZg8mCEfClDv2KOrT7rQ" field="LABEL" name="NOTE" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" show="false"/>
+    <elementParameter xmi:id="_5_eZhMmCEfClDv2KOrT7rQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_5_eZhcmCEfClDv2KOrT7rQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_5_eZhsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cSetBody_2" target="cLog_1">
+    <elementParameter xmi:id="_5_eZh8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZiMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route4" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cLog_4" target="cJsonValidator_1">
+    <elementParameter xmi:id="_5_eZicmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZismCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route10" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonWriter_1" target="cLog_4">
+    <elementParameter xmi:id="_5_eZi8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route10" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZjMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route2" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cMulticast_1">
+    <elementParameter xmi:id="_5_eZjcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZjsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route3" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cDirect_1" target="cJsonWriter_1">
+    <elementParameter xmi:id="_5_eZj8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZkMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route5" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonParser_1" target="cLog_2">
+    <elementParameter xmi:id="_5_eZkcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZksmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route7" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cDirect_2" target="cXmlWriter_1">
+    <elementParameter xmi:id="_5_eZk8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route7" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZlMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route9" lineStyle="14" metaname="cLog_3" offsetLabelX="0" offsetLabelY="0" source="cLog_3" target="cXmlValidator_1">
+    <elementParameter xmi:id="_5_eZlcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route9" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZlsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route8" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cXmlWriter_1" target="cLog_3">
+    <elementParameter xmi:id="_5_eZl8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route8" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZmMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route11" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cXmlParser_1" target="cLog_5">
+    <elementParameter xmi:id="_5_eZmcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route11" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZmsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route12" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonValidator_1" target="cJsonParser_1">
+    <elementParameter xmi:id="_5_eZm8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route12" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZnMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route13" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cXmlValidator_1" target="cXmlParser_1">
+    <elementParameter xmi:id="_5_eZncmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route13" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZnsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route14" lineStyle="14" metaname="cDirect_3" offsetLabelX="0" offsetLabelY="0" source="cDirect_3" target="cJsonWriter_2">
+    <elementParameter xmi:id="_5_eZn8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route14" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZoMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route15" lineStyle="14" metaname="cJsonWriter_2" offsetLabelX="0" offsetLabelY="0" source="cJsonWriter_2" target="cLog_6">
+    <elementParameter xmi:id="_5_eZocmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route15" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZosmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route16" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cLog_6" target="cJsonParser_2">
+    <elementParameter xmi:id="_5_eZo8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route16" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZpMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route17" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonParser_2" target="cXmlWriter_2">
+    <elementParameter xmi:id="_5_eZpcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route17" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZpsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route18" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cXmlWriter_2" target="cLog_7">
+    <elementParameter xmi:id="_5_eZp8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route18" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZqMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route20" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cDirect_4" target="cXmlWriter_3">
+    <elementParameter xmi:id="_5_eZqcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route20" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZqsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route19" lineStyle="14" metaname="cXmlWriter_3" offsetLabelX="0" offsetLabelY="0" source="cXmlWriter_3" target="cLog_8">
+    <elementParameter xmi:id="_5_eZq8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route19" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZrMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route21" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cLog_8" target="cXmlParser_2">
+    <elementParameter xmi:id="_5_eZrcmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route21" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZrsmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route22" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cXmlParser_2" target="cJsonWriter_3">
+    <elementParameter xmi:id="_5_eZr8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route22" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZsMmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route23" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonWriter_3" target="cLog_9">
+    <elementParameter xmi:id="_5_eZscmCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route23" show="false"/>
+  </connection>
+  <connection xmi:id="_5_eZssmCEfClDv2KOrT7rQ" connectorName="ROUTE" label="route6" lineStyle="14" metaname="cTimer_1" offsetLabelX="0" offsetLabelY="0" source="cTimer_1" target="cSetBody_2">
+    <elementParameter xmi:id="_5_eZs8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="route6" show="false"/>
+  </connection>
+  <note xmi:id="_5_eZtMmCEfClDv2KOrT7rQ" opaque="true" posX="32" posY="32" sizeHeight="161" sizeWidth="545" text="This demo shows advanced usage of the cJsonParser/cXmlWriter:&#xD;&#xA;&#xD;&#xA;- Declare a DataFormat in custom code in a cBeanRegister&#xD;&#xA;- Use this DataFormat by specify Bean Reference ID in components">
+    <elementParameter xmi:id="_5_eZtcmCEfClDv2KOrT7rQ" field="TEXT" name="NOTE_FONT" value="Arial"/>
+  </note>
+  <subjob xmi:id="_5_eZtsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZt8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cSetBody_2" show="false"/>
+    <elementParameter xmi:id="_5_eZuMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZucmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZusmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZu8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_4" show="false"/>
+    <elementParameter xmi:id="_5_eZvMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZvcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZvsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZv8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_1" show="false"/>
+    <elementParameter xmi:id="_5_eZwMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZwcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZwsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZw8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cMulticast_1" show="false"/>
+    <elementParameter xmi:id="_5_eZxMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZxcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZxsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZx8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_5_eZyMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZycmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZysmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZy8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_5_eZzMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZzcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZzsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZz8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_1" show="false"/>
+    <elementParameter xmi:id="_5_eZ0MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ0cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ0smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ08mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+    <elementParameter xmi:id="_5_eZ1MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ1cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ1smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ18mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_5_eZ2MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ2cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ2smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ28mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_3" show="false"/>
+    <elementParameter xmi:id="_5_eZ3MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ3cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ3smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ38mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_5" show="false"/>
+    <elementParameter xmi:id="_5_eZ4MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ4cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ4smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ48mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_1" show="false"/>
+    <elementParameter xmi:id="_5_eZ5MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ5cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ5smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ58mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlWriter_1" show="false"/>
+    <elementParameter xmi:id="_5_eZ6MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ6cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ6smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ68mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_1" show="false"/>
+    <elementParameter xmi:id="_5_eZ7MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ7cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ7smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ78mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_2" show="false"/>
+    <elementParameter xmi:id="_5_eZ8MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ8cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ8smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ88mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonValidator_1" show="false"/>
+    <elementParameter xmi:id="_5_eZ9MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ9cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ9smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ98mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlValidator_1" show="false"/>
+    <elementParameter xmi:id="_5_eZ-MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ-cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ-smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ-8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
+    <elementParameter xmi:id="_5_eZ_MmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eZ_cmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eZ_smCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eZ_8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_2" show="false"/>
+    <elementParameter xmi:id="_5_eaAMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaAcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaAsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaA8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_6" show="false"/>
+    <elementParameter xmi:id="_5_eaBMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaBcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaBsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaB8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_2" show="false"/>
+    <elementParameter xmi:id="_5_eaCMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaCcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaCsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaC8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlWriter_2" show="false"/>
+    <elementParameter xmi:id="_5_eaDMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaDcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaDsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaD8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_7" show="false"/>
+    <elementParameter xmi:id="_5_eaEMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaEcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaEsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaE8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_4" show="false"/>
+    <elementParameter xmi:id="_5_eaFMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaFcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaFsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaF8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlWriter_3" show="false"/>
+    <elementParameter xmi:id="_5_eaGMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaGcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaGsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaG8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_8" show="false"/>
+    <elementParameter xmi:id="_5_eaHMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaHcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaHsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaH8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_2" show="false"/>
+    <elementParameter xmi:id="_5_eaIMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaIcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaIsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaI8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_3" show="false"/>
+    <elementParameter xmi:id="_5_eaJMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaJcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaJsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaJ8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cLog_9" show="false"/>
+    <elementParameter xmi:id="_5_eaKMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaKcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaKsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaK8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_3" show="false"/>
+    <elementParameter xmi:id="_5_eaLMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaLcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_5_eaLsmCEfClDv2KOrT7rQ">
+    <elementParameter xmi:id="_5_eaL8mCEfClDv2KOrT7rQ" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+    <elementParameter xmi:id="_5_eaMMmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_5_eaMcmCEfClDv2KOrT7rQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

@@ -1,0 +1,18 @@
+{
+  "itemId" : "_Iu-wcMx8EfCy9MmN-yE2XA",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "_nHfxwMyiEfCLwLfsjBnZNA",
+    "parameterList" : [ {
+      "id" : "_nHwQccyiEfCLwLfsjBnZNA",
+      "name" : "Limit"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_nHfxwMyiEfCLwLfsjBnZNA",
+    "parameterList" : [ {
+      "id" : "_nHwQc8yiEfCLwLfsjBnZNA",
+      "name" : "Limit"
+    } ]
+  } ]
+}

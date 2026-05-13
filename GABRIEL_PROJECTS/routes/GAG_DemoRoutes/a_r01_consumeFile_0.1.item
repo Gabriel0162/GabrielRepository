@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_lgNL8NIVEfC5iv6VFK3D5Q" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_lgNL8dIVEfC5iv6VFK3D5Q" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_lgNL8tIVEfC5iv6VFK3D5Q">
+    <elementParameter xmi:id="_lgNL89IVEfC5iv6VFK3D5Q" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_lgNL9NIVEfC5iv6VFK3D5Q" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_lgNL9dIVEfC5iv6VFK3D5Q" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_lgNL9tIVEfC5iv6VFK3D5Q" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL99IVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL-NIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL-dIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL-tIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL-9IVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL_NIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL_dIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL_tIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_lgNL_9IVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_lgNMANIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_lgNMAdIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_lgNMAtIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_lgNMA9IVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_lgNMBNIVEfC5iv6VFK3D5Q" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_lgNMBdIVEfC5iv6VFK3D5Q" id="_uDi24CvPEemn7J3ssWShHg" name="r"/>
+  </parameters>
+  <node xmi:id="_lgNMBtIVEfC5iv6VFK3D5Q" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
+    <elementParameter xmi:id="_lgNMB9IVEfC5iv6VFK3D5Q" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_lgNMCNIVEfC5iv6VFK3D5Q" field="DIRECTORY" name="URI" value="&quot;C:/Users/Gabriel Araya/Downloads/Talend/Route/Input&quot;"/>
+    <elementParameter xmi:id="_lgNMCdIVEfC5iv6VFK3D5Q" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_lgNMCtIVEfC5iv6VFK3D5Q" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_lgNMC9IVEfC5iv6VFK3D5Q" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_lgNMDNIVEfC5iv6VFK3D5Q" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_lgNMDdIVEfC5iv6VFK3D5Q" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_lgNMDtIVEfC5iv6VFK3D5Q" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_lgNMD9IVEfC5iv6VFK3D5Q" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_lgNMENIVEfC5iv6VFK3D5Q" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_lgNMEdIVEfC5iv6VFK3D5Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_lgNMEtIVEfC5iv6VFK3D5Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_lgNME9IVEfC5iv6VFK3D5Q" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
+    <elementParameter xmi:id="_lgNMFNIVEfC5iv6VFK3D5Q" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+    <elementParameter xmi:id="_lgNMFdIVEfC5iv6VFK3D5Q" field="DIRECTORY" name="URI" value="&quot;C:/Users/Gabriel Araya/Downloads/Talend/Route/Output&quot;"/>
+    <elementParameter xmi:id="_lgNMFtIVEfC5iv6VFK3D5Q" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_lgNMF9IVEfC5iv6VFK3D5Q" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_lgNMGNIVEfC5iv6VFK3D5Q" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_lgNMGdIVEfC5iv6VFK3D5Q" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_lgNMGtIVEfC5iv6VFK3D5Q" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_lgNMG9IVEfC5iv6VFK3D5Q" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_lgNMHNIVEfC5iv6VFK3D5Q" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_lgNMHdIVEfC5iv6VFK3D5Q" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_lgNMHtIVEfC5iv6VFK3D5Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_lgNMH9IVEfC5iv6VFK3D5Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_lgNMINIVEfC5iv6VFK3D5Q" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cFile_1" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cFile_2">
+    <elementParameter xmi:id="_lgNMIdIVEfC5iv6VFK3D5Q" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <note xmi:id="_lgNMItIVEfC5iv6VFK3D5Q" opaque="true" posX="480" posY="40" sizeHeight="241" sizeWidth="441" text="cFile1 se utiliza para inspeccionar los archivos de cierto &#xD;&#xA;directorio y los mueve a la ruta del cFile2. cada vez que &#xD;&#xA;aparece un archivo en el directorio del cFile1 lo mueve &#xD;&#xA;al segundo cFile.&#xD;&#xA;No olvidar presionar KILL en el RUN ya que queda activo.">
+    <elementParameter xmi:id="_lgNMI9IVEfC5iv6VFK3D5Q" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_lgNMJNIVEfC5iv6VFK3D5Q" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_lgNMJdIVEfC5iv6VFK3D5Q" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_lgNMJtIVEfC5iv6VFK3D5Q" field="RADIO" name="NOTETXT_TOP" value="true"/>
+    <elementParameter xmi:id="_lgNMJ9IVEfC5iv6VFK3D5Q" field="CHECK" name="FONT_BOLD" value="true"/>
+  </note>
+  <subjob xmi:id="_lgNMKNIVEfC5iv6VFK3D5Q">
+    <elementParameter xmi:id="_lgNMKdIVEfC5iv6VFK3D5Q" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_lgNMKtIVEfC5iv6VFK3D5Q">
+    <elementParameter xmi:id="_lgNMK9IVEfC5iv6VFK3D5Q" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+  </subjob>
+</talendfile:ProcessType>

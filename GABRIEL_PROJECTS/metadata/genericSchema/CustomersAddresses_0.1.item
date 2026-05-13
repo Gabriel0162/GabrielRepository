@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_L0bewMsZEfCCZLbkXIQ9Hg" comment="connectionComment" label="connectionLabel" dataPackage="_L0bewcsZEfCCZLbkXIQ9Hg"/>
+  <TalendMetadata:GenericPackage xmi:id="_L0bewcsZEfCCZLbkXIQ9Hg" dataManager="_L0bewMsZEfCCZLbkXIQ9Hg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L0bewssZEfCCZLbkXIQ9Hg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0bew8sZEfCCZLbkXIQ9Hg" name="Address" id="3124" label="Address" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_L0bexMsZEfCCZLbkXIQ9Hg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0bexcsZEfCCZLbkXIQ9Hg" name="CompanyName" id="3125" label="CompanyName" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_L0bexssZEfCCZLbkXIQ9Hg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0bex8sZEfCCZLbkXIQ9Hg" name="Country" id="3126" label="Country" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_L0beyMsZEfCCZLbkXIQ9Hg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0beycsZEfCCZLbkXIQ9Hg" name="CustomerID" id="3127" label="CustomerID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_L0beyssZEfCCZLbkXIQ9Hg" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

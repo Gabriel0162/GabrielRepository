@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_YVU_YE2CEfGMRo5Q24UK7Q" name="a.-Basic_Column_Analysis_MDM_Clientes" creationDate="2026-05-11T18:42:59.925-0400" defaultContext="Default">
+  <clientDependency href="../Analyses/MDM_Clientes/a_-Basic_Column_Analysis_MDM_Clientes_0.1.ana#_YVVmcE2CEfGMRo5Q24UK7Q"/>
+  <taggedValue xmi:id="_YVU_YU2CEfGMRo5Q24UK7Q" tag="OutputFolder" value="C:\Users\Gabriel Araya\Downloads"/>
+  <taggedValue xmi:id="_YVU_Yk2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_YVU_Y02CEfGMRo5Q24UK7Q" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_YVU_ZE2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_YVU_ZU2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_YVU_Zk2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_YVU_Z02CEfGMRo5Q24UK7Q" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_YVU_aE2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_YVU_aU2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_USER" value="AData"/>
+  <taggedValue xmi:id="_YVU_ak2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_PASSWORD" value="Dani2000$$"/>
+  <taggedValue xmi:id="_YVU_a02CEfGMRo5Q24UK7Q" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_YVU_bE2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_YVU_bU2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_YVU_bk2CEfGMRo5Q24UK7Q" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQL8Dialect"/>
+  <taggedValue xmi:id="_YVU_b02CEfGMRo5Q24UK7Q" tag="REP_PASSWORD_CONTEXT" value="true"/>
+  <taggedValue xmi:id="_YVU_cE2CEfGMRo5Q24UK7Q" tag="Author" value="gabrielaraya@adatacompanysasnfr"/>
+  <taggedValue xmi:id="_YX39EE2CEfGMRo5Q24UK7Q" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_YX39EU2CEfGMRo5Q24UK7Q" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_e02nkE2CEfGMRo5Q24UK7Q" tag="OutputFileName" value="Mi_REporte_de_TOS"/>
+  <taggedValue xmi:id="_e02nkU2CEfGMRo5Q24UK7Q" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_8hpnoE2CEfGMRo5Q24UK7Q" tag="Purpose" value="AA"/>
+  <taggedValue xmi:id="_8hpnoU2CEfGMRo5Q24UK7Q" tag="Description" value="BB"/>
+  <taggedValue xmi:id="_8hpnok2CEfGMRo5Q24UK7Q" tag="Status" value="development"/>
+  <taggedValue xmi:id="_8hqOsU2CEfGMRo5Q24UK7Q" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_8hqOsk2CEfGMRo5Q24UK7Q" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_8hqOs02CEfGMRo5Q24UK7Q" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_YVU_cU2CEfGMRo5Q24UK7Q" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/MDM_Clientes/a_-Basic_Column_Analysis_MDM_Clientes_0.1.ana#_AvJ-IE1oEfGMRo5Q24UK7Q"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_8yMlEE2CEfGMRo5Q24UK7Q" executionDate="2026-05-11T18:47:04.041-0400" executionDuration="504" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_8hqOsE2CEfGMRo5Q24UK7Q" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

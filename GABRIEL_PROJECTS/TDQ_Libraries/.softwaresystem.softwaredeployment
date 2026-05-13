@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010">
+  <softwaredeployment:TdSoftwareSystem xmi:id="_eByyoMsPEfCCZLbkXIQ9Hg" name="MySQL" subtype="MySQL" version="8.0.44"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_LW5REMyAEfCy9MmN-yE2XA" name="MySQL" subtype="MySQL" version="8.0.37"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_f1Ug8NUvEfCkUZway6tSJg" name="MySQL" subtype="MySQL" version="5.7.33-log"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_ya2cQALPEfG_4p8YQOp49Q" name="MySQL" subtype="MySQL" version="8.0.36"/>
+</xmi:XMI>

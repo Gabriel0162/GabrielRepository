@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.foundation.softwaredeployment="http:///orgomg/cwm/foundation/softwaredeployment.ecore" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_D5pmUFkQEd-MRNn5CSkuaQ" name="CustomerDB" supplierDependency="_Md8Qv1kSEd-MRNn5CSkuaQ" id="_VlencFnXEd-Mbrlij0umsA" label="CustomerDB" component="_8fSYUX-NEeCx04HGvj8drw" dataPackage="_OKkPkMyhEfCLwLfsjBnZNA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/training?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="AData" Password="enc:system.encryption.key.v1:AoBIsfBUQ9ZzRQiQWhH+tUVOzsBe+9WKEAfTm5PoxretbJz0a4o=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="training" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_D5pmUVkQEd-MRNn5CSkuaQ" tag="DB IdentifierQuoteString" value="`"/>
+    <taggedValue xmi:id="_D5pmUlkQEd-MRNn5CSkuaQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_D5pmU1kQEd-MRNn5CSkuaQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_D5pmVFkQEd-MRNn5CSkuaQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_D5pmVVkQEd-MRNn5CSkuaQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_D5pmVlkQEd-MRNn5CSkuaQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_D59IUFkQEd-MRNn5CSkuaQ" tag="Property File" value="/DQ_TUTORIALS/TDQ_Metadata/DB Connections/Q3VzdG9tZXJEQg==20100506030536_0.1.properties"/>
+    <taggedValue xmi:id="_k_jm4EspEeC9fPwiMZCwRQ" tag="RETRIEVE_ALL" value="false"/>
+    <taggedValue xmi:id="_mdIYIEspEeC9fPwiMZCwRQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_8UA8cH-NEeCx04HGvj8drw" tag="Using URL" value="jdbc:mysql://localhost:3306/tbi?zeroDateTimeBehavior=convertToNull&amp;noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
+    <taggedValue xmi:id="_os6SIDYqEeO-kehgQ8wp_w" tag="package filter" value=""/>
+    <taggedValue xmi:id="_oxGOkDYqEeO-kehgQ8wp_w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_OMPDgMyhEfCLwLfsjBnZNA" tag="DB ProductName" value=""/>
+    <taggedValue xmi:id="_OMPDgcyhEfCLwLfsjBnZNA" tag="DB ProductVersion" value=""/>
+    <parameters xmi:id="_Db008MyhEfCLwLfsjBnZNA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+    <parameters xmi:id="_JvzUcMyhEfCLwLfsjBnZNA" key="CONN_PARA_KEY_USERNAME" value="AData"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_OKkPkMyhEfCLwLfsjBnZNA" name="training" dataManager="_D5pmUFkQEd-MRNn5CSkuaQ"/>
+  <orgomg.cwm.foundation.softwaredeployment:Component xmi:id="_8fSYUX-NEeCx04HGvj8drw" deployment="_D5pmUFkQEd-MRNn5CSkuaQ"/>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_Md8Qv1kSEd-MRNn5CSkuaQ" kind="Usage" supplier="_D5pmUFkQEd-MRNn5CSkuaQ">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/TUTO58/GenderAna_0.1.ana#_vL-FoEsrEeCz16Pq5vtFvQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

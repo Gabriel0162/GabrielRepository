@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>GABRIEL_PROJECTS</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.talend.core.talendnature</nature>
+		<nature>com.oaklandsw.transform.runtime.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.Mi_REporte_de_TOS-20260511-1847-00007.pdf</name>
+			<type>1</type>
+			<location>C:/Users/Gabriel Araya/Downloads/Mi_REporte_de_TOS-20260511-1847-00007.pdf</location>
+		</link>
+	</linkedResources>
+</projectDescription>

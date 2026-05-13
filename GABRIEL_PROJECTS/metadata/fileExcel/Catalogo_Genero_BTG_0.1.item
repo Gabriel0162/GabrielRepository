@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ln05ECx5EfGrzZVuqTHWVw" name="Catalogo_Genero_BTG" dataPackage="_ln05ESx5EfGrzZVuqTHWVw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Gabriel Araya/Downloads/Talend/BTG/Catalogo.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Genero" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Genero:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ln05ESx5EfGrzZVuqTHWVw" name="default" dataManager="_ln05ECx5EfGrzZVuqTHWVw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ln1gICx5EfGrzZVuqTHWVw" id="_Kj8cACx5EfGrzZVuqTHWVw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ln1gISx5EfGrzZVuqTHWVw" label="Cod__Genero" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ln1gIix5EfGrzZVuqTHWVw" label="Genero" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ln1gIyx5EfGrzZVuqTHWVw" label="Alias_Genero" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

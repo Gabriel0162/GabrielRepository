@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.indicators.definition.userdefine:UDIndicatorDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.indicators.definition.userdefine="http://dataquality.indicators.definition.userdefine" xmi:id="_1y2bEE2HEfGMRo5Q24UK7Q" name="GAG_Custom_Indicator" label="GAG_Custom_Indicator">
+  <taggedValue xmi:id="_1y2bEU2HEfGMRo5Q24UK7Q" tag="Status" value="development"/>
+  <taggedValue xmi:id="_1y2bEk2HEfGMRo5Q24UK7Q" tag="Author" value="gabrielaraya@adatacompanysasnfr"/>
+  <taggedValue xmi:id="_1y2bE02HEfGMRo5Q24UK7Q" tag="Purpose" value="TEST"/>
+  <taggedValue xmi:id="_1y2bFE2HEfGMRo5Q24UK7Q" tag="Description" value="Los Sueños"/>
+  <taggedValue xmi:id="_1y2bFU2HEfGMRo5Q24UK7Q" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_1y2bFk2HEfGMRo5Q24UK7Q" tag="Validation_Status" value="true"/>
+  <categories href="../../.Talend.definition#_b5F7QHqTEd67hM2eKD3QgQ"/>
+</dataquality.indicators.definition.userdefine:UDIndicatorDefinition>
