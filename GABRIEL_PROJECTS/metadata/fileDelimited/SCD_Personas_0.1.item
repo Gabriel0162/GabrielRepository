@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LZk_sGnTEfG53ZNNiJxCgg" name="SCD_Personas" dataPackage="_LZk_sWnTEfG53ZNNiJxCgg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Gabriel Araya/Downloads/Talend/Datos de MDM/MDM_Clientes.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LZk_sWnTEfG53ZNNiJxCgg" name="default" dataManager="_LZk_sGnTEfG53ZNNiJxCgg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LZk_smnTEfG53ZNNiJxCgg" id="_rfg20GnSEfG53ZNNiJxCgg" comment="Base" label="SCD_Personas_Base">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_s2nTEfG53ZNNiJxCgg" label="id_cliente" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_tGnTEfG53ZNNiJxCgg" label="Nombre_Cliente" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_tWnTEfG53ZNNiJxCgg" label="NIT" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_tmnTEfG53ZNNiJxCgg" label="Fecha_Nacimiento" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_t2nTEfG53ZNNiJxCgg" label="Pais_Nacimiento" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_uGnTEfG53ZNNiJxCgg" label="Ciudad_Nacimiento" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZk_uWnTEfG53ZNNiJxCgg" label="Genero" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
